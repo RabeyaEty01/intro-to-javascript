@@ -18,3 +18,12 @@ total =total.toFixed(2);
 total =parseFloat(total);
 console.log(total);
 //console.log(parsFloat(total.toFixed(2)));
+
+
+//modulus
+ var mangoes = 57;
+ var hungryPerson = 12;
+ var dividing = mangoes/hungryPerson;
+ var remaining = mangoes % hungryPerson;
+ console.log(remaining);
+ console.log(dividing);
